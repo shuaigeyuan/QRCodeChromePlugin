@@ -1,0 +1,79 @@
+body {
+    width: 320px;
+    margin: 0;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+    background: #ffffff;
+    }
+    .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    }
+    .qr-wrapper {
+    position: relative;
+    padding: 24px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    }
+    .qr-wrapper:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    }
+    #qrcode {
+    width: 200px;
+    height: 200px;
+    }
+    .favicon-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    }
+    #favicon {
+    max-width: 100%;
+    max-height: 100%;
+    }
+    .site-name {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1d1d1f;
+    text-align: center;
+    }
+    .actions {
+    display: flex;
+    gap: 12px;
+    }
+    .action-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    background: #007aff;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    }
+    .action-btn:hover {
+    background: #0066d6;
+    }
+    .action-btn:active {
+    transform: scale(0.98);
+    }

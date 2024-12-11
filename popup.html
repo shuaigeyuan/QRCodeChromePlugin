@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>网页二维码</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+<div class="qr-wrapper">
+<div id="qrcode"></div>
+<div class="favicon-wrapper">
+<img id="favicon" alt="网站图标">
+</div>
+</div>
+<h2 id="siteName" class="site-name"></h2>
+<div class="actions">
+<button id="saveBtn" class="action-btn">
+<svg width="16" height="16" viewBox="0 0 16 16">
+<path d="M13 5v8H3V5H2v9h12V5z M4 5v6h8V5z M7 2h2v2H7z" fill="currentColor"/>
+</svg>
+保存二维码
+</button>
+</div>
+</div>
+<script src="qrcode.min.js"></script>
+<script src="popup.js"></script>
+</body>
+</html>
